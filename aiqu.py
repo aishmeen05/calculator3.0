@@ -1,5 +1,6 @@
 from addition import add
 from subtraction import subtract
+from multiplication import multiply
 print("Hello!")
 a=int(input("Enter 1st no.: "))
 b=int(input("Enter 2nd no.: "))
@@ -13,3 +14,5 @@ if c=="1":
     print(add(a,b))
 elif c=="2":
     print(subtract(a,b))
+elif c=="3":
+    print(multiply(a,b))
