@@ -1,4 +1,5 @@
 from addition import add
+from subtraction import subtract
 print("Hello!")
 a=int(input("Enter 1st no.: "))
 b=int(input("Enter 2nd no.: "))
@@ -10,3 +11,5 @@ c=input("""Here are some operations that you can perform in this:
 """)
 if c=="1":
     print(add(a,b))
+elif c=="2":
+    print(subtract(a,b))
